@@ -88,17 +88,17 @@
 
 @font-face {
     font-family: "RalewayLight";
-    src: url(/Fonts/Raleway-Light.ttf);
+    src: url(../Fonts/Raleway-Light.ttf);
   }
 @font-face {
     font-family: "RalewayRegular";
-    src: url(/Fonts/Raleway-Regular.ttf);
+    src: url(../Fonts/Raleway-Regular.ttf);
   }
 @font-face {
     font-family: "RalewayBold";
-    src: url(/Fonts/Raleway-Bold.ttf);
+    src: url(../Fonts/Raleway-Bold.ttf);
   }
   @font-face {
     font-family: "RalewayExtraBold";
-    src: url(/Fonts/Raleway-ExtraBold.ttf);
+    src: url(../Fonts/Raleway-ExtraBold.ttf);
   }
