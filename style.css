@@ -41,13 +41,13 @@
 }
 @layer components {
   .btn-outline {
-      @apply border-[2px] border-primary py-2 px-5 flex justify-center items-center text-primary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-primary hover:text-white
+      @apply border-[2px] border-primary py-2 px-5 flex justify-center items-center text-primary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-primary hover:text-white hover:transition-all
   }
   .btn-outline-secondary {
-      @apply border-[2px] border-secondary lg:py-2 py-1 px-[18px] flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-secondary hover:text-white
+      @apply border-[2px] border-secondary lg:py-2 py-1 px-[18px] flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-secondary hover:text-white hover:transition-all
   }
   .btn-primary {
-    @apply bg-primary px-[60.5px] lg:py-2 py-1  flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-transparent border-[2px] border-primary hover:text-primary
+    @apply bg-primary px-[60.5px] lg:py-2 py-1  flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-transparent border-[2px] border-primary hover:text-primary hover:transition-all
   }
 }
 @layer utilities {
@@ -82,7 +82,7 @@
     @apply border border-secondary bg-white custom-shadow;
   }
   .review-slider .owl-carousel .owl-stage {
-    @apply flex ml-1;
+    @apply flex ml-[2px];
   }
 }
 
