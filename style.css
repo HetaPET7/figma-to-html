@@ -73,10 +73,10 @@
     @apply lg:w-[36px] lg:h-[40px] w-[26px] h-[30px] relative lg:mt-0 mt-4;
   }
   .owl-carousel .owl-nav button.owl-prev{
-    @apply before:bg-[url('/Images/prev-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:left-0 top-2/4 xxl:left-0 lg:left-4 md:left-0 -left-4 absolute;
+    @apply before:bg-[url('Images/prev-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:left-0 top-2/4 xxl:left-0 lg:left-4 md:left-0 -left-4 absolute;
   }
   .owl-carousel .owl-nav button.owl-next{
-    @apply before:bg-[url('/Images/next-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:right-0 top-2/4 xxl:right-0 lg:right-4 md:right-0 -right-4 absolute;
+    @apply before:bg-[url('Images/next-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:right-0 top-2/4 xxl:right-0 lg:right-4 md:right-0 -right-4 absolute;
   }
   .review-slider .owl-carousel .owl-item {
     @apply border border-secondary bg-white custom-shadow;
