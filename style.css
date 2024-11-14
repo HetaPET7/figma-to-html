@@ -1,0 +1,112 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .custom-container {
+    @apply min-[1440px]:max-w-[1344px] max-w-[1200px] px-4 w-full mx-auto;
+  }
+  .custom-shadow {
+    @apply shadow-[0px_3px_20px_0px_#0000001A];
+  }
+  h2 {
+    @apply text-primary font-RalewayExtraBold;
+  }
+  h2 span {
+    @apply font-RalewayLight text-secondary;
+  }
+  p {
+      @apply text-[16px] leading-[24.8px] font-RalewayRegular text-secondary;
+  }  
+  b {
+    @apply font-RalewayExtraBold
+  }
+  .link {
+    @apply text-secondary xl:text-[16px] xl:leading-[18.78px] text-sm font-RalewayExtraBold hover:text-primary;
+  }
+  .main-title {
+      @apply xxl:text-[48px] lg:text-[40px] text-[32px] leading-9 lg:leading-[56.35px] font-RalewayExtraBold text-center capitalize;
+  }
+  .sub-title {
+      @apply xxl:text-[24px] xxl:leading-[28.18px] lg:text-[20px] text-[18px] leading-5 lg:leading-6 font-RalewayExtraBold text-primary;
+  }
+  .hero-title {
+    @apply md:text-[64px] text-[40px] md:leading-[75.14px] leading-[46px] text-center text-white font-RalewayLight;
+  }
+  .footer-link {
+    @apply xl:text-[16px] xl:leading-[18.78px] text-sm text-white font-RalewayLight hover:text-primary;
+  }
+
+}
+@layer components {
+  .btn-outline {
+      @apply border-[2px] border-primary py-2 px-5 flex justify-center items-center text-primary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-primary hover:text-white
+  }
+  .btn-outline-secondary {
+      @apply border-[2px] border-secondary lg:py-2 py-1 px-[18px] flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-secondary hover:text-white
+  }
+  .btn-primary {
+    @apply bg-primary px-[60.5px] lg:py-2 py-1  flex justify-center items-center text-secondary lg:text-[16px] text-sm lg:leading-[18.78px] font-RalewayExtraBold hover:bg-transparent border-[2px] border-primary hover:text-primary
+  }
+}
+@layer utilities {
+  .mobile-menu.open {
+    @apply left-0;
+  }
+  .overflow-hidden {
+    @apply overflow-hidden;
+  }
+  .review-slider .owl-carousel .owl-nav.disabled {
+    @apply block
+  }
+  .owl-carousel .owl-nav.disabled span{
+    @apply hidden
+  }
+  .owl-carousel {
+    @apply !static
+  }
+  .owl-carousel .owl-nav {
+    @apply max-w-[1344px] px-4 w-full mx-auto;
+  }
+  .owl-carousel .owl-nav button {
+    @apply lg:w-[36px] lg:h-[40px] w-[26px] h-[30px] relative lg:mt-0 mt-4;
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+    @apply before:bg-[url('/Images/prev-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:left-0 top-2/4 xxl:left-0 lg:left-4 md:left-0 -left-4 absolute;
+  }
+  .owl-carousel .owl-nav button.owl-next{
+    @apply before:bg-[url('/Images/next-icon.svg')] before:bg-cover before:w-full before:h-full before:block before:absolute before:bg-no-repeat before:top-0 before:right-0 top-2/4 xxl:right-0 lg:right-4 md:right-0 -right-4 absolute;
+  }
+  .review-slider .owl-carousel .owl-item {
+    @apply border border-secondary bg-white custom-shadow;
+  }
+  .review-slider .owl-carousel .owl-stage {
+    @apply flex ml-1;
+  }
+}
+
+@font-face {
+    font-family: "RalewayLight";
+    src: url(/Fonts/Raleway-Light.ttf);
+  }
+@font-face {
+    font-family: "RalewayRegular";
+    src: url(/Fonts/Raleway-Regular.ttf);
+  }
+@font-face {
+    font-family: "RalewayBold";
+    src: url(/Fonts/Raleway-Bold.ttf);
+  }
+  @font-face {
+    font-family: "RalewayExtraBold";
+    src: url(/Fonts/Raleway-ExtraBold.ttf);
+  }
+
+
+ 
+  .experts-bg::before {
+    content: '';
+    background: 
+    linear-gradient(90deg, #979899 36.87%, rgba(151, 152, 153, 0) 60.75%);
+}
