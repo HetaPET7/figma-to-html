@@ -102,11 +102,3 @@
     font-family: "RalewayExtraBold";
     src: url(/Fonts/Raleway-ExtraBold.ttf);
   }
-
-
- 
-  .experts-bg::before {
-    content: '';
-    background: 
-    linear-gradient(90deg, #979899 36.87%, rgba(151, 152, 153, 0) 60.75%);
-}

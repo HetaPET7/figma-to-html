@@ -15,6 +15,9 @@ module.exports = {
       backgroundColor: {
         primary: "#FFD100",
       },
+      backgroundImage: {
+        customGradient: "linear-gradient(90deg, #979899 36.87%, rgba(151, 152, 153, 0) 60.75%)"
+      },
       fontFamily: {
         RalewayLight: ["RalewayLight"],
         RalewayRegular: ["RalewayRegular"],
